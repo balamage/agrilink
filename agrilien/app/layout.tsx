@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -19,7 +18,7 @@ export const metadata: Metadata = {
     "AgriLien connecte directement les producteurs de Masisi, Rutshuru et Nyiragongo aux acheteurs de Goma. Consultez les récoltes, comparez les prix et contactez les vendeurs.",
 
   verification: {
-    google: "iSJVPGln1JoVy6eNyKJwI_WAaslsztHZvziaiXuQS8A",
+    google: "Gqe-075G7phS8uv51LPITi0lJaDWvA-YMKjOmA50F_A",
   },
 
   alternates: {
