@@ -11,7 +11,6 @@ const starter: Listing[] = [
   {id:2,product:"Tomates",quantity:60,unit:"caisse",price:25000,location:"Masisi",seller:"Jean-Pierre M.",phone:"+243 970 000 104",image:"https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=900&q=85",verified:true},
   {id:3,product:"Pommes de terre",quantity:80,unit:"sac",price:275000,location:"Masisi",seller:"Coopérative Umoja",phone:"+243 970 000 101",image:"https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=85",verified:true},
   {id:4,product:"Bananes",quantity:35,unit:"régime",price:18000,location:"Nyiragongo",seller:"Maman Amani",phone:"+243 970 000 108",image:"https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=900&q=85",verified:false},
-  {id:5,product:"Patates douces",quantity:120,unit:"kg",price:1300,location:"Masisi",seller:"Groupe Tujenge",phone:"+243 970 000 111",image:"https://images.unsplash.com/photo-1596097635121-14b63b7a0c19?auto=format&fit=crop&w=900&q=85",verified:true},
   {id:6,product:"Choux",quantity:70,unit:"pièce",price:1500,location:"Nyiragongo",seller:"Jardin du Kivu",phone:"+243 970 000 110",image:"https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=900&q=85",verified:false},
 ];
 const allowedProducts = starter.map(item => item.product);
@@ -20,7 +19,7 @@ const marketPrices = [
   ["Tomates","caisse","—","25 000 FC","À confirmer"],
   ["Pommes de terre","sac","—","275 000 FC","À confirmer"],
   ["Bananes","régime","—","18 000 FC","À confirmer"],
-  ["Patates douces","kg","—","1 300 FC","À confirmer"],
+  
   ["Choux","pièce","—","1 500 FC","À confirmer"],
 ];
 const formatMoney = (n:number) => `${new Intl.NumberFormat("fr-FR").format(n)} FC`;
