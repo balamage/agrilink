@@ -17,19 +17,19 @@ type Listing = {
 
 const starter: Listing[] = [
   {
-    id: 6,
+    id: 1,
     product: "Ail",
     quantity: 25,
-    unit: "lot de 5 kg",
+    unit: "kg",
     price: 30000,
     location: "Masisi",
     seller: "Espoir Agricole",
     phone: "+243 970 000 106",
-    image: "https://images.unsplash.com/photo-1639119677984-b6c9ed1b0ca8?auto=format&fit=crop&w=900&q=85",
-    verified: false
+    image: "https://loremflickr.com/800/600/garlic?lock=101",
+    verified: true
   },
   {
-    id: 1,
+    id: 2,
     product: "Pommes de terre",
     quantity: 80,
     unit: "sac",
@@ -37,11 +37,11 @@ const starter: Listing[] = [
     location: "Masisi",
     seller: "Coopérative Umoja",
     phone: "+243 970 000 101",
-    image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=85",
     verified: true
   },
   {
-    id: 2,
+    id: 3,
     product: "Haricots",
     quantity: 250,
     unit: "kg",
@@ -49,11 +49,11 @@ const starter: Listing[] = [
     location: "Rutshuru",
     seller: "Maman Bahati",
     phone: "+243 970 000 102",
-    image: "https://images.unsplash.com/photo-1551462147-ff29053bfc14?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/kidneybeans?lock=103",
     verified: true
   },
   {
-    id: 3,
+    id: 4,
     product: "Oignons",
     quantity: 40,
     unit: "bassin",
@@ -61,11 +61,11 @@ const starter: Listing[] = [
     location: "Nyiragongo",
     seller: "Ferme La Récolte",
     phone: "+243 970 000 103",
-    image: "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/onions?lock=104",
     verified: false
   },
   {
-    id: 4,
+    id: 5,
     product: "Tomates",
     quantity: 60,
     unit: "caisse",
@@ -73,11 +73,11 @@ const starter: Listing[] = [
     location: "Masisi",
     seller: "Jean-Pierre M.",
     phone: "+243 970 000 104",
-    image: "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=900&q=85",
     verified: true
   },
   {
-    id: 5,
+    id: 6,
     product: "Manioc",
     quantity: 150,
     unit: "kg",
@@ -85,7 +85,7 @@ const starter: Listing[] = [
     location: "Rutshuru",
     seller: "Groupe Tujenge",
     phone: "+243 970 000 105",
-    image: "https://images.unsplash.com/photo-1603833665858-e61d17a86224?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/cassava?lock=106",
     verified: true
   },
   {
@@ -97,7 +97,7 @@ const starter: Listing[] = [
     location: "Rutshuru",
     seller: "Coopérative Maendeleo",
     phone: "+243 970 000 107",
-    image: "https://images.unsplash.com/photo-1551754477-1e0b5e7f7f5c?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/corn?lock=107",
     verified: true
   },
   {
@@ -109,7 +109,7 @@ const starter: Listing[] = [
     location: "Nyiragongo",
     seller: "Maman Amani",
     phone: "+243 970 000 108",
-    image: "https://images.unsplash.com/photo-1603833665858-e61d17a86224?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/plantain?lock=108",
     verified: false
   },
   {
@@ -121,7 +121,7 @@ const starter: Listing[] = [
     location: "Masisi",
     seller: "Ferme Kivu Vert",
     phone: "+243 970 000 109",
-    image: "https://images.unsplash.com/photo-1523046146857-4b4b6f4f3f3f?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1523046146857-4b4b6f4f3f3f?auto=format&fit=crop&w=900&q=85",
     verified: true
   },
   {
@@ -133,7 +133,7 @@ const starter: Listing[] = [
     location: "Nyiragongo",
     seller: "Jardin du Kivu",
     phone: "+243 970 000 110",
-    image: "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/cabbage?lock=110",
     verified: false
   },
   {
@@ -145,7 +145,7 @@ const starter: Listing[] = [
     location: "Masisi",
     seller: "Groupe Tujenge",
     phone: "+243 970 000 111",
-    image: "https://images.unsplash.com/photo-1596097635121-14b63b7a0c19?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/sweetpotato?lock=111",
     verified: true
   },
   {
@@ -157,7 +157,7 @@ const starter: Listing[] = [
     location: "Rutshuru",
     seller: "Ferme La Récolte",
     phone: "+243 970 000 112",
-    image: "https://images.unsplash.com/photo-1445282768818-728615cc910a?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1445282768818-728615cc910a?auto=format&fit=crop&w=900&q=85",
     verified: true
   },
   {
@@ -169,7 +169,7 @@ const starter: Listing[] = [
     location: "Nyiragongo",
     seller: "Espoir Agricole",
     phone: "+243 970 000 113",
-    image: "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/bellpepper?lock=113",
     verified: false
   },
   {
@@ -181,7 +181,7 @@ const starter: Listing[] = [
     location: "Masisi",
     seller: "Maman Bahati",
     phone: "+243 970 000 114",
-    image: "https://images.unsplash.com/photo-1659354217315-3f7f7b2c3a5c?auto=format&fit=crop&w=900&q=80",
+    image: "https://loremflickr.com/800/600/eggplant?lock=114",
     verified: false
   }
 ];
@@ -190,8 +190,10 @@ const marketPrices = [
   ["Haricots", "kg", "1 200 – 2 500 FC", "3 000 – 4 500 FC", "Hausse"],
   ["Ail", "5 kg", "10 000 FC", "30 000 FC", "Hausse"],
   ["Oignons", "bassin", "50 000 FC", "120 000 FC", "Hausse"],
-  ["Pommes de terre", "sac", "120 000 – 140 000 FC", "≈ 275 000 FC", "Hausse"],
-  ["Cossettes de manioc", "kg", "—", "1 100 – 1 200 FC", "Stable"]
+  ["Pommes de terre", "sac", "120 000 – 140 000 FC", "275 000 FC", "Hausse"],
+  ["Manioc", "kg", "—", "1 100 – 1 200 FC", "Stable"],
+  ["Maïs", "kg", "—", "1 800 FC", "Stable"],
+  ["Tomates", "caisse", "—", "25 000 FC", "Stable"]
 ];
 
 const formatMoney = (n: number) =>
@@ -212,14 +214,16 @@ export default function Home() {
 
       if (data) {
         const saved: Listing[] = JSON.parse(data);
-        const savedIds = new Set(saved.map(item => item.id));
+        const savedIds = new Set(saved.map(x => x.id));
 
         setItems([
           ...saved,
-          ...starter.filter(item => !savedIds.has(item.id))
+          ...starter.filter(x => !savedIds.has(x.id))
         ]);
       }
-    } catch {}
+    } catch {
+      console.log("Erreur de chargement des annonces");
+    }
   }, []);
 
   const filtered = useMemo(() => {
@@ -227,8 +231,7 @@ export default function Home() {
       `${x.product} ${x.location} ${x.seller}`
         .toLowerCase()
         .includes(query.toLowerCase()) &&
-      (zone === "Toutes les zones" ||
-        x.location.toLowerCase().includes(zone.toLowerCase()))
+      (zone === "Toutes les zones" || x.location === zone)
     );
 
     if (sort === "asc") result.sort((a, b) => a.price - b.price);
@@ -241,39 +244,36 @@ export default function Home() {
   function publish(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    const f = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const f = new FormData(form);
 
-    const next: Listing[] = [
-      {
-        id: Date.now(),
-        product: String(f.get("product")),
-        quantity: Number(f.get("quantity")),
-        unit: String(f.get("unit")),
-        price: Number(f.get("price")),
-        location: String(f.get("location")),
-        seller: String(f.get("seller")),
-        phone: String(f.get("phone")),
-        image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80",
-        verified: false
-      },
-      ...items
-    ];
+    const next: Listing = {
+      id: Date.now(),
+      product: String(f.get("product")),
+      quantity: Number(f.get("quantity")),
+      unit: String(f.get("unit")),
+      price: Number(f.get("price")),
+      location: String(f.get("location")),
+      seller: String(f.get("seller")),
+      phone: String(f.get("phone")),
+      image: "https://loremflickr.com/800/600/vegetables?lock=" + Date.now(),
+      verified: false
+    };
 
-    setItems(next);
+    const updated = [next, ...items];
+
+    setItems(updated);
 
     try {
-      localStorage.setItem("agrilien-annonces", JSON.stringify(next));
+      localStorage.setItem("agrilien-annonces", JSON.stringify(updated));
     } catch {}
 
     setModal(false);
+    form.reset();
 
-    setMessage(
-      "Annonce ajoutée sur cet appareil. Elle n'est pas encore visible sur les autres téléphones."
-    );
+    setMessage("Annonce enregistrée sur cet appareil. Elle n'est pas encore partagée avec les autres visiteurs.");
 
-    e.currentTarget.reset();
-
-    window.setTimeout(() => setMessage(""), 7000);
+    setTimeout(() => setMessage(""), 7000);
   }
 
   return (
@@ -302,9 +302,9 @@ export default function Home() {
             <a href="#contact">Contact</a>
           </nav>
 
-          <a className="nav-cta" href="#publier">
+          <button className="nav-cta" onClick={() => setModal(true)}>
             ＋ Publier une récolte
-          </a>
+          </button>
         </div>
       </header>
 
@@ -323,14 +323,14 @@ export default function Home() {
               </h1>
 
               <p>
-                AgriLien rapproche les producteurs du Nord-Kivu et les acheteurs
-                de Goma. Trouvez des produits frais, comparez les prix et
-                contactez directement les vendeurs.
+                AgriLien rapproche les producteurs du Nord-Kivu et les
+                acheteurs de Goma. Trouvez des produits frais, comparez
+                les prix et contactez directement les vendeurs.
               </p>
 
               <div className="hero-actions">
                 <a className="btn primary" href="#annonces">
-                  Découvrir les récoltes <b>↗</b>
+                  Découvrir les récoltes ↗
                 </a>
 
                 <a className="btn outline" href="#fonctionnement">
@@ -341,10 +341,8 @@ export default function Home() {
               <div className="promise">
                 <span>✓</span>
                 <div>
-                  <b>Du producteur à l’acheteur</b>
-                  <small>
-                    Des prix plus transparents, moins d’intermédiaires.
-                  </small>
+                  <b>Du producteur à l'acheteur</b>
+                  <small>Des prix plus transparents.</small>
                 </div>
               </div>
             </div>
@@ -352,16 +350,14 @@ export default function Home() {
             <div className="hero-visual">
               <img
                 src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=85"
-                alt="Paysage de champs agricoles verdoyants"
+                alt="Champs agricoles"
               />
 
               <div className="photo-caption">
                 <span>🌾</span>
                 <div>
                   <b>Du champ à Goma</b>
-                  <small>
-                    Un lien direct pour mieux vendre et acheter.
-                  </small>
+                  <small>Un lien direct pour mieux vendre.</small>
                 </div>
               </div>
 
@@ -375,17 +371,15 @@ export default function Home() {
           <div className="wrap stats">
             <div>
               <b>3</b>
-              <span>territoires de production ciblés</span>
+              <span>territoires de production</span>
             </div>
-
             <div>
               <b>Direct</b>
               <span>contact producteur-acheteur</span>
             </div>
-
             <div>
               <b>Accessible</b>
-              <span>un site léger, adapté au mobile</span>
+              <span>adapté aux téléphones</span>
             </div>
           </div>
         </section>
@@ -395,19 +389,11 @@ export default function Home() {
             <div className="section-head">
               <div>
                 <span className="label">LE MARCHÉ EN LIGNE</span>
-                <h2>
-                  Les récoltes <em>disponibles</em>
-                </h2>
-                <p>
-                  Explorez les produits proposés par les producteurs et
-                  coopératives de la région.
-                </p>
+                <h2>Les récoltes <em>disponibles</em></h2>
+                <p>Découvrez les produits agricoles de la région.</p>
               </div>
 
-              <button
-                className="link-button"
-                onClick={() => setModal(true)}
-              >
+              <button className="link-button" onClick={() => setModal(true)}>
                 Vendre ma récolte ↗
               </button>
             </div>
@@ -418,27 +404,18 @@ export default function Home() {
                 <input
                   value={query}
                   onChange={e => setQuery(e.target.value)}
-                  placeholder="Rechercher un produit ou une zone..."
-                  aria-label="Recherche"
+                  placeholder="Rechercher un produit..."
                 />
               </label>
 
-              <select
-                value={zone}
-                onChange={e => setZone(e.target.value)}
-                aria-label="Filtrer par zone"
-              >
+              <select value={zone} onChange={e => setZone(e.target.value)}>
                 <option>Toutes les zones</option>
                 <option>Masisi</option>
                 <option>Rutshuru</option>
                 <option>Nyiragongo</option>
               </select>
 
-              <select
-                value={sort}
-                onChange={e => setSort(e.target.value)}
-                aria-label="Trier"
-              >
+              <select value={sort} onChange={e => setSort(e.target.value)}>
                 <option value="recent">Plus récentes</option>
                 <option value="asc">Prix croissant</option>
                 <option value="desc">Prix décroissant</option>
@@ -450,14 +427,22 @@ export default function Home() {
               {filtered.map(x => (
                 <article className="card" key={x.id}>
                   <div className="card-img">
-                    <img src={x.image} alt={x.product} loading="lazy" />
+                    <img
+                      src={x.image}
+                      alt={x.product}
+                      loading="lazy"
+                      onError={e => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src =
+                          "https://loremflickr.com/800/600/vegetables?lock=999";
+                      }}
+                    />
                     <span>⌖ {x.location}</span>
                   </div>
 
                   <div className="card-body">
                     <div className="card-title">
                       <h3>{x.product}</h3>
-
                       {x.verified && (
                         <span className="verified">✓ Vérifié</span>
                       )}
@@ -471,9 +456,7 @@ export default function Home() {
                         <small>par {x.unit}</small>
                       </div>
 
-                      <span>
-                        {x.quantity} {x.unit}
-                      </span>
+                      <span>{x.quantity} {x.unit}</span>
                     </div>
 
                     <button
@@ -482,10 +465,7 @@ export default function Home() {
                         setPhoneId(phoneId === x.id ? null : x.id)
                       }
                     >
-                      {phoneId === x.id
-                        ? x.phone
-                        : "Afficher le contact"}{" "}
-                      <b>↗</b>
+                      {phoneId === x.id ? x.phone : "Afficher le contact"} ↗
                     </button>
                   </div>
                 </article>
@@ -493,25 +473,20 @@ export default function Home() {
             </div>
 
             {filtered.length === 0 && (
-              <p className="empty">
-                Aucune annonce trouvée. Essayez une autre recherche.
-              </p>
+              <p className="empty">Aucun produit trouvé.</p>
             )}
 
             <p className="disclaimer">
-              Prototype : les annonces de départ sont des exemples. Les prix
-              peuvent varier et doivent être confirmés sur le marché.
+              Les produits et les prix affichés sont des données de
+              démonstration à confirmer auprès des vendeurs.
             </p>
           </div>
         </section>
 
-        {/* SECTION PRIX DU MARCHÉ */}
         <section className="market" id="prix">
           <div className="wrap market-grid">
             <div>
-              <span className="label">
-                INFORMATION & TRANSPARENCE
-              </span>
+              <span className="label">INFORMATION & TRANSPARENCE</span>
 
               <h2>
                 Les prix du marché
@@ -520,13 +495,12 @@ export default function Home() {
               </h2>
 
               <p>
-                Valeurs indicatives rapportées dans le travail pratique. Elles
-                doivent être confirmées par des relevés réguliers auprès des
-                marchés et agents relais.
+                Consultez les prix indicatifs des produits agricoles.
+                Les valeurs doivent être régulièrement actualisées.
               </p>
 
               <div className="source-note">
-                ● Données indicatives · Francs congolais (FC)
+                ● Prix indicatifs · Francs congolais (FC)
               </div>
             </div>
 
@@ -548,19 +522,11 @@ export default function Home() {
                         <b>{row[0]}</b>
                         <small>par {row[1]}</small>
                       </td>
-
                       <td>{row[2]}</td>
                       <td className="now">{row[3]}</td>
-
                       <td>
-                        <span
-                          className={
-                            row[4] === "Stable" ? "stable" : "up"
-                          }
-                        >
-                          {row[4] === "Stable"
-                            ? "→ Stable"
-                            : "↑ Hausse"}
+                        <span className={row[4] === "Stable" ? "stable" : "up"}>
+                          {row[4] === "Stable" ? "→ Stable" : "↑ Hausse"}
                         </span>
                       </td>
                     </tr>
@@ -569,8 +535,7 @@ export default function Home() {
               </table>
 
               <small className="table-foot">
-                Source : TP AgriLien, chiffres indicatifs rapportés par la
-                presse locale en 2026.
+                Prix de démonstration à vérifier sur les marchés locaux.
               </small>
             </div>
           </div>
@@ -580,15 +545,8 @@ export default function Home() {
           <div className="wrap">
             <div className="center">
               <span className="label">SIMPLE COMME UN LIEN</span>
-
-              <h2>
-                Comment fonctionne <em>AgriLien ?</em>
-              </h2>
-
-              <p>
-                Une plateforme pensée pour les réalités des producteurs et
-                des acheteurs du Nord-Kivu.
-              </p>
+              <h2>Comment fonctionne <em>AgriLien ?</em></h2>
+              <p>Une plateforme pensée pour les producteurs et acheteurs.</p>
             </div>
 
             <div className="steps">
@@ -596,57 +554,39 @@ export default function Home() {
                 <b>01</b>
                 <div>🌾</div>
                 <h3>Le producteur publie</h3>
-                <p>
-                  Produit, quantité, prix, territoire, nom et téléphone.
-                  La publication par SMS/USSD fait partie de la vision du
-                  projet et nécessitera une passerelle télécom.
-                </p>
+                <p>Il présente son produit, son prix et sa quantité.</p>
               </article>
 
               <article>
                 <b>02</b>
                 <div>🔎</div>
-                <h3>L’acheteur compare</h3>
-                <p>
-                  Il recherche les produits, filtre par zone et compare
-                  les prix et les quantités disponibles.
-                </p>
+                <h3>L'acheteur compare</h3>
+                <p>Il recherche les produits et compare les prix.</p>
               </article>
 
               <article>
                 <b>03</b>
                 <div>🤝</div>
                 <h3>Ils se contactent</h3>
-                <p>
-                  L’acheteur contacte directement le vendeur pour vérifier
-                  la disponibilité et organiser la transaction.
-                </p>
+                <p>L'acheteur contacte directement le vendeur.</p>
               </article>
             </div>
           </div>
         </section>
 
-        <section className="publish" id="publier">
+        <section className="publish">
           <div className="wrap publish-inner">
             <div>
               <span className="label">VOUS ÊTES PRODUCTEUR ?</span>
-
               <h2>
                 Votre récolte mérite
                 <br />
                 <em>un meilleur marché.</em>
               </h2>
-
-              <p>
-                Présentez vos produits aux acheteurs de Goma. La publication
-                est gratuite dans la V1.
-              </p>
+              <p>Présentez vos produits aux acheteurs de Goma.</p>
             </div>
 
-            <button
-              className="btn light"
-              onClick={() => setModal(true)}
-            >
+            <button className="btn light" onClick={() => setModal(true)}>
               ＋ Publier une annonce
             </button>
           </div>
@@ -656,19 +596,13 @@ export default function Home() {
           <div className="wrap about-grid">
             <div>
               <span className="label">NOTRE VISION</span>
-
-              <h2>
-                Un marché plus juste, <em>ensemble.</em>
-              </h2>
-
+              <h2>Un marché plus juste, <em>ensemble.</em></h2>
               <p>
-                Transformer chaque producteur et chaque acheteur de Goma en
-                acteur d’un marché agricole direct, transparent et accessible,
-                même par simple SMS.
+                AgriLien rapproche les producteurs et les acheteurs
+                pour faciliter les échanges agricoles dans le Nord-Kivu.
               </p>
-
               <strong>
-                « Vendez au meilleur prix, achetez directement au producteur. »
+                Vendez au meilleur prix, achetez directement au producteur.
               </strong>
             </div>
 
@@ -677,9 +611,7 @@ export default function Home() {
                 <b>01</b>
                 <span>
                   <strong>Transparence des prix</strong>
-                  <small>
-                    Des informations locales pour mieux décider.
-                  </small>
+                  <small>Des informations locales.</small>
                 </span>
               </div>
 
@@ -687,9 +619,7 @@ export default function Home() {
                 <b>02</b>
                 <span>
                   <strong>Confiance</strong>
-                  <small>
-                    Producteurs vérifiés, annonces modérées et signalement.
-                  </small>
+                  <small>Des vendeurs identifiables.</small>
                 </span>
               </div>
 
@@ -697,9 +627,7 @@ export default function Home() {
                 <b>03</b>
                 <span>
                   <strong>Accessibilité</strong>
-                  <small>
-                    Une expérience légère, pensée pour les connexions limitées.
-                  </small>
+                  <small>Une expérience adaptée au mobile.</small>
                 </span>
               </div>
             </div>
@@ -710,28 +638,22 @@ export default function Home() {
           <div className="wrap contact-grid">
             <div>
               <span className="label">RESTONS EN CONTACT</span>
-
               <h2>
                 Construisons des liens
                 <br />
-                qui font grandir <em>l’agriculture.</em>
+                qui font grandir <em>l'agriculture.</em>
               </h2>
             </div>
 
             <div>
               <p>
-                Producteur, coopérative, commerçant ou partenaire ? Écrivez
-                à l’équipe AgriLien pour en savoir plus.
+                Producteur, coopérative ou commerçant ?
+                Contactez l'équipe AgriLien.
               </p>
 
               <a className="btn primary" href="mailto:contact@agrilien.cd">
                 Écrire à AgriLien ↗
               </a>
-
-              <small>
-                Adresse de démonstration à remplacer par le contact officiel
-                du projet.
-              </small>
             </div>
           </div>
         </section>
@@ -740,35 +662,24 @@ export default function Home() {
       <footer>
         <div className="wrap footer-inner">
           <a href="#accueil" className="brand">
-            <img src="/logo-agrilien.jpg" alt="" />
-
+            <img src="/logo-agrilien.jpg" alt="AgriLien" />
             <span>
               Agri<span>Lien</span>
               <small>LE MARCHÉ AGRICOLE DIRECT</small>
             </span>
           </a>
 
-          <p>
-            © {new Date().getFullYear()} AgriLien · Goma, RDC
-          </p>
-
+          <p>© {new Date().getFullYear()} AgriLien · Goma, RDC</p>
           <a href="#accueil">Retour en haut ↑</a>
         </div>
       </footer>
 
-      {message && (
-        <div className="toast" role="status">
-          {message}
-        </div>
-      )}
+      {message && <div className="toast">{message}</div>}
 
       {modal && (
-        <div
-          className="overlay"
-          onMouseDown={e => {
-            if (e.target === e.currentTarget) setModal(false);
-          }}
-        >
+        <div className="overlay" onMouseDown={e => {
+          if (e.target === e.currentTarget) setModal(false);
+        }}>
           <form className="form-modal" onSubmit={publish}>
             <button
               className="close"
@@ -779,39 +690,14 @@ export default function Home() {
             </button>
 
             <span className="label">NOUVELLE ANNONCE</span>
-
             <h2>Publier une récolte</h2>
-
-            <p>
-              Renseignez les informations de votre produit.
-            </p>
 
             <label>
               Produit
-
               <select name="product" required defaultValue="">
-                <option value="" disabled>
-                  Choisir un produit
-                </option>
-
-                {[
-                  "Haricots",
-                  "Pommes de terre",
-                  "Oignons",
-                  "Ail",
-                  "Manioc",
-                  "Tomates",
-                  "Maïs",
-                  "Bananes plantain",
-                  "Avocats",
-                  "Choux",
-                  "Patates douces",
-                  "Carottes",
-                  "Poivrons",
-                  "Aubergines",
-                  "Autre produit"
-                ].map(p => (
-                  <option key={p}>{p}</option>
+                <option value="" disabled>Choisir un produit</option>
+                {starter.map(x => (
+                  <option key={x.id}>{x.product}</option>
                 ))}
               </select>
             </label>
@@ -819,82 +705,48 @@ export default function Home() {
             <div className="form-row">
               <label>
                 Quantité
-
-                <input
-                  name="quantity"
-                  type="number"
-                  min="1"
-                  required
-                  placeholder="Ex. 50"
-                />
+                <input name="quantity" type="number" min="1" required />
               </label>
 
               <label>
                 Unité
-
                 <select name="unit">
                   <option>kg</option>
                   <option>sac</option>
                   <option>bassin</option>
                   <option>caisse</option>
-                  <option>lot de 5 kg</option>
+                  <option>régime</option>
+                  <option>pièce</option>
                 </select>
               </label>
             </div>
 
             <label>
-              Prix (FC)
-
-              <input
-                name="price"
-                type="number"
-                min="1"
-                required
-                placeholder="Ex. 3500"
-              />
+              Prix en FC
+              <input name="price" type="number" min="1" required />
             </label>
 
             <label>
-              Territoire / zone
-
-              <input
-                name="location"
-                required
-                placeholder="Ex. Masisi"
-              />
+              Territoire
+              <input name="location" required placeholder="Ex. Masisi" />
             </label>
 
             <label>
               Nom du producteur
-
-              <input
-                name="seller"
-                required
-                placeholder="Votre nom ou coopérative"
-              />
+              <input name="seller" required />
             </label>
 
             <label>
               Téléphone
-
-              <input
-                name="phone"
-                type="tel"
-                required
-                placeholder="+243..."
-              />
+              <input name="phone" type="tel" required placeholder="+243..." />
             </label>
 
-            <button
-              className="btn primary submit"
-              type="submit"
-            >
-              Publier l’annonce ↗
+            <button className="btn primary submit" type="submit">
+              Publier l'annonce ↗
             </button>
 
             <small className="form-note">
-              Prototype : l’annonce est enregistrée sur ce navigateur
-              uniquement, sans base de données partagée.
+              Les annonces sont actuellement enregistrées sur cet appareil.
             </small>
           </form>
         </div>
